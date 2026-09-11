@@ -1,0 +1,45 @@
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    z-index: 9999;
+  }
+  
+  .custom-spinner {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+
+  
+  .gold { background: #d4a017; }
+  .silver { background: #9ca3af; }
+  .oil { background: #374151; }
+  .brent { background: #2563eb; }
+  .gas { background: #059669; }
+  .copper { background: #b45309; }
+  .platinum { background: #6d28d9; }
+  .palladium { background: #7c3aed; }
+
+  .commodity-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 9999px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }

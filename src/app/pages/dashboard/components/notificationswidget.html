@@ -1,0 +1,43 @@
+<div class="mb-8">
+  <h3 class="text-lg sm:text-xl font-semibold text-surface-900 dark:text-surface-0 mb-3 sm:mb-4">
+    {{ 'Quick links' | translate }}
+  </h3>
+
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+    @for (link of quickLinks; track link.labelKey) {
+      <div
+        pRipple
+        role="button"
+        tabindex="0"
+        (click)="link.action()"
+        (keydown.enter)="link.action()"
+        [class]="link.rippleClass"
+        class="group relative overflow-hidden rounded-2xl min-h-[120px] sm:min-h-[132px]
+               flex flex-col items-center justify-center gap-2 sm:gap-2.5 p-4 sm:p-5
+               cursor-pointer select-none text-center
+               bg-white dark:bg-surface-900
+               border border-surface-200 dark:border-surface-700
+               shadow-sm hover:shadow-md dark:shadow-none
+               transition-all duration-200
+               active:scale-[0.98] sm:hover:-translate-y-0.5">
+
+        <div class="absolute inset-x-0 top-0 h-1" [ngClass]="link.topBar"></div>
+
+        <div
+          class="relative w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center shrink-0
+                 ring-1 ring-surface-200/80 dark:ring-surface-600"
+          [ngClass]="link.iconBg">
+          <i class="pi" style="font-size: 1.3rem;" [ngClass]="link.icon"></i>
+        </div>
+
+        <span class="relative font-semibold text-sm sm:text-base text-surface-900 dark:text-surface-0">
+          {{ link.labelKey | translate }}
+        </span>
+
+        <span class="relative text-[10px] sm:text-xs text-muted-color leading-snug line-clamp-2 px-1">
+          {{ link.descKey | translate }}
+        </span>
+      </div>
+    }
+  </div>
+</div>
