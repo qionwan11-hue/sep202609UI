@@ -18,7 +18,7 @@ export class PrivacyPolicy {
   readonly sections: any[] = [
     {
       title: 'Who we are',
-      body: 'TradeAIGrow (“we”, “us”) provides an AI-assisted trading platform for spot, forex, commodity, and related services. This policy explains how we handle personal information when you use the TradeAIGrow website and app.'
+      body: 'TradeAIFusion (“we”, “us”) provides an AI-assisted trading platform for spot, forex, commodity, and related services. This policy explains how we handle personal information when you use the TradeAIFusion website and app.'
     },
     {
       title: 'Information we collect',
@@ -30,7 +30,7 @@ export class PrivacyPolicy {
     },
     {
       title: 'How we share information',
-      body: 'We do not sell your personal information. We may share it with identity-verification and payment or blockchain network providers, cloud and infrastructure vendors, and with authorities when required by law. Access inside TradeAIGrow is limited to staff who need it to operate the platform.'
+      body: 'We do not sell your personal information. We may share it with identity-verification and payment or blockchain network providers, cloud and infrastructure vendors, and with authorities when required by law. Access inside TradeAIFusion is limited to staff who need it to operate the platform.'
     },
     {
       title: 'Security and retention',
