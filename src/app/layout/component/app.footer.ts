@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
     template: `<div class="layout-footer px-4 py-3 text-center">
         <div class="text-xs sm:text-sm md:text-base">
             Built with precision by
-            <span class="text-primary font-bold mx-1">TradeAIGrow</span>
+            <span class="text-primary font-bold mx-1">TradeAIFusion</span>
             — Smart AI Trading Platform
         </div>
     </div>`

@@ -79,16 +79,16 @@ export class AppTopbar implements OnInit {
     selectedNotification: any = null;
     readonly updateItems: any[] = [
         {
-            id: 'tradeaigrow-arbitration',
+            id: 'tradeaifusion-arbitration',
             tag: 'Arbitration',
             title: 'Synchronous inter-exchange service is going live',
             paragraphs: [
-                'Welcome to the TradeAiGrow synchronous inter-exchange service!',
-                'All TradeAiGrow systems are ready to conduct secure transactions.',
-                'We are finalizing the setup for TradeAiGrow partner cryptocurrency exchanges and adding external liquidity providers to exchanges in South America and Africa.',
-                'Within a few days, all our clients will be able to activate arbitration operations and begin to consistently receive arbitration profits through TradeAiGrow.',
-                'Now you can successfully register and get acquainted with the TradeAiGrow platform.',
-                'Stay tuned for updates. The TradeAiGrow team is always happy to help. Thank you for your participation.'
+                'Welcome to the TradeAiFusion synchronous inter-exchange service!',
+                'All TradeAiFusion systems are ready to conduct secure transactions.',
+                'We are finalizing the setup for TradeAiFusion partner cryptocurrency exchanges and adding external liquidity providers to exchanges in South America and Africa.',
+                'Within a few days, all our clients will be able to activate arbitration operations and begin to consistently receive arbitration profits through TradeAiFusion.',
+                'Now you can successfully register and get acquainted with the TradeAiFusion platform.',
+                'Stay tuned for updates. The TradeAiFusion team is always happy to help. Thank you for your participation.'
             ]
         },
         {
@@ -96,7 +96,7 @@ export class AppTopbar implements OnInit {
             tag: 'Spot Trade',
             title: 'Spot trading with real-time market data',
             paragraphs: [
-                'TradeAiGrow Spot Trade is now fully integrated with live price feeds across major crypto pairs.',
+                'TradeAiFusion Spot Trade is now fully integrated with live price feeds across major crypto pairs.',
                 'Execute market and limit orders with low latency, track open positions, and review your trade history from one unified dashboard.',
                 'New chart tools and order-book depth views help you make faster decisions in volatile markets.'
             ]
@@ -116,7 +116,7 @@ export class AppTopbar implements OnInit {
             tag: 'Commodity',
             title: 'Commodity markets: gold, oil, and metals',
             paragraphs: [
-                'Commodity trading is live on TradeAiGrow with curated watchlists for precious metals, energy, and agricultural contracts.',
+                'Commodity trading is live on TradeAiFusion with curated watchlists for precious metals, energy, and agricultural contracts.',
                 'Monitor spot and futures-style instruments, set price alerts, and diversify your portfolio beyond digital assets.',
                 'Risk controls and margin summaries are displayed before every order confirmation.'
             ]
@@ -126,7 +126,7 @@ export class AppTopbar implements OnInit {
             tag: 'AI',
             title: 'AI-powered insights across the platform',
             paragraphs: [
-                'TradeAiGrow AI analyzes market trends, volatility, and cross-asset correlations to surface actionable signals on your dashboard.',
+                'TradeAiFusion AI analyzes market trends, volatility, and cross-asset correlations to surface actionable signals on your dashboard.',
                 'Smart summaries highlight opportunities in Spot, Forex, and Commodity modules while respecting your risk preferences.',
                 'More AI-assisted tools—including portfolio rebalancing suggestions—will roll out throughout the summer.'
             ]
