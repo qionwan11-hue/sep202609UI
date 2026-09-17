@@ -49,7 +49,7 @@ export class Deposit {
       { address: "rB6Cxi2XzHbpfajucYgMCnTY5xJucjKvMP", name: "ripple", code: "xrp", scan: "assets/demo/images/scan/XRP.png" },
       { address: "0x5098aA32b08A5908d2e0f4cCB407aF6910A8494f", name: "usd-coin", code: "usdc", scan: "assets/demo/images/scan/UsdcBCP20.png" },
       { address: "4jmKBg3tbagtidG6D3TFdfXCMftaNiFMtv4HqWGFwKX6", name: "solana", code: "sol", scan: "assets/demo/images/scan/SOL.png" },
-      { address: "DECfdniei6LEERbMZzzeZ5Y1eLr88vctRa", name: "dogecoin", code: "doge", scan: "assets/demo/images/scan/DOGE.png" },
+      { address: "DDhfGheWqxUhxkrENy3aWVpHecUVghH2Y9", name: "dogecoin", code: "doge", scan: "assets/demo/images/scan/DOGEV2.jpg" },
       { address: "ltc1qxnhuxntzm473hzy3uf56xf9qwk2z8e0emtlz27", name: "litecoin", code: "ltc", scan: "assets/demo/images/scan/LTC.png" }
   ]
   showFaithDepositDialog = false;
