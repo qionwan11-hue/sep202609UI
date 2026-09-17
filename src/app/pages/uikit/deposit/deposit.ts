@@ -41,7 +41,7 @@ export class Deposit {
   selectedCoinAddress: string = '';
   selectedCoinImage: string = '';
   selectedCoins: any[] = [
-      { address: "bc1qvy0dcma43700hsnjgxnf56a33rc8naru583e9s", name: "bitcoin", code: "btc", scan: "assets/demo/images/scan/BTCV2.jpg" },
+      { address: "bc1q0tqegf04q78mlss2e6zyzygvtjl048qpf47gx9", name: "bitcoin", code: "btc", scan: "assets/demo/images/scan/BTCV4.jpg" },
       { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "ethereum", code: "eth", scan: "assets/demo/images/scan/ETHV3.jpg" },
       { address: "0x5098aA32b08A5908d2e0f4cCB407aF6910A8494f", name: "tetherBEP20", code: "usdt(bep20)", scan: "assets/demo/images/scan/usdtBep20.png" },
       { address: "TJ3iZrJhW3DRCuJvTAvx8votAAAzBs8R7D", name: "tetherTRC20", code: "usdt(trc20)", scan: "assets/demo/images/scan/usdtTrc20.png" },
