@@ -44,7 +44,7 @@ export class Deposit {
       { address: "bc1q0tqegf04q78mlss2e6zyzygvtjl048qpf47gx9", name: "bitcoin", code: "btc", scan: "assets/demo/images/scan/BTCV4.jpg" },
       { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "ethereum", code: "eth", scan: "assets/demo/images/scan/ETHV3.jpg" },
       { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "tetherBEP20", code: "usdt(bep20)", scan: "assets/demo/images/scan/usdtBep20V1.jpg" },
-      { address: "TJ3iZrJhW3DRCuJvTAvx8votAAAzBs8R7D", name: "tetherTRC20", code: "usdt(trc20)", scan: "assets/demo/images/scan/usdtTrc20.png" },
+      { address: "TUJmGj7Xe7So4TQ222JcJYFEqd6mGPmXkS", name: "tetherTRC20", code: "usdt(trc20)", scan: "assets/demo/images/scan/usdtTrc20V1.jpg" },
       { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "binancecoin", code: "bnb", scan: "assets/demo/images/scan/BNBV2.jpg" },
       { address: "rB6Cxi2XzHbpfajucYgMCnTY5xJucjKvMP", name: "ripple", code: "xrp", scan: "assets/demo/images/scan/XRP.png" },
       { address: "0x5098aA32b08A5908d2e0f4cCB407aF6910A8494f", name: "usd-coin", code: "usdc", scan: "assets/demo/images/scan/UsdcBCP20.png" },
