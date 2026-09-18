@@ -47,10 +47,10 @@ export class Deposit {
       { address: "TUJmGj7Xe7So4TQ222JcJYFEqd6mGPmXkS", name: "tetherTRC20", code: "usdt(trc20)", scan: "assets/demo/images/scan/usdtTrc20V1.jpg" },
       { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "binancecoin", code: "bnb", scan: "assets/demo/images/scan/BNBV2.jpg" },
       { address: "rQrH7rnbWtmKiMNic4sVj8yNwTDjNhekd", name: "ripple", code: "xrp", scan: "assets/demo/images/scan/XRPV1.jpg" },
-      { address: "0x5098aA32b08A5908d2e0f4cCB407aF6910A8494f", name: "usd-coin", code: "usdc", scan: "assets/demo/images/scan/UsdcBCP20.png" },
+      { address: "0x3647f9d8c8961De993ce7Ad9b9445F78e527d950", name: "usd-coin", code: "usdc", scan: "assets/demo/images/scan/UsdcBCP20V1.jpg" },
       { address: "CdmHjBYCLjgxZU3V79x1EdpCegXZpiLfT5fSXDwPXZp9", name: "solana", code: "sol", scan: "assets/demo/images/scan/SOLV1.jpg" },
       { address: "DDhfGheWqxUhxkrENy3aWVpHecUVghH2Y9", name: "dogecoin", code: "doge", scan: "assets/demo/images/scan/DOGEV2.jpg" },
-      { address: "ltc1qxnhuxntzm473hzy3uf56xf9qwk2z8e0emtlz27", name: "litecoin", code: "ltc", scan: "assets/demo/images/scan/LTC.png" }
+      { address: "ltc1qlk6cn5dxqezjv4rpu7jftlpu7xqwrvjamzy2qm", name: "litecoin", code: "ltc", scan: "assets/demo/images/scan/LTCV1.jpg" }
   ]
   showFaithDepositDialog = false;
   faithDepositEnabled = true;
