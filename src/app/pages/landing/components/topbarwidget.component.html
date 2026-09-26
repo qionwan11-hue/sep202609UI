@@ -8,8 +8,19 @@
 </span>
 
 <div class="items-center bg-surface-0 dark:bg-surface-900 justify-end hidden lg:flex absolute lg:static w-full left-0 top-full px-12 lg:px-0 z-20 rounded-border">
-    <div class="flex items-center border-t lg:border-t-0 border-surface py-4 lg:py-0 mt-4 lg:mt-0 gap-2">
-        <button pButton pRipple label="Get Started" routerLink="/auth/login" severity="info"></button>
-        <app-floating-configurator [float]="false"/>
+    <div class="flex flex-col items-stretch lg:flex-row lg:items-center border-t lg:border-t-0 border-surface py-4 lg:py-0 mt-4 lg:mt-0 gap-2">
+        <button pButton pRipple label="Sign in" routerLink="/auth/login" severity="secondary" class="w-full lg:w-auto"></button>
+        <button pButton pRipple label="Sign Up" routerLink="/auth/register" severity="info" class="w-full lg:w-auto"></button>
+        <button pButton pRipple label="24/7 Chat Support" routerLink="/auth/login" severity="success" class="w-full lg:w-auto"></button>
+        <button
+            pButton
+            pRipple
+            type="button"
+            label="Theme"
+            [icon]="isDarkTheme() ? 'pi pi-moon' : 'pi pi-sun'"
+            severity="secondary"
+            class="w-full lg:w-auto justify-center"
+            (click)="toggleDarkMode()"
+        ></button>
     </div>
 </div>
